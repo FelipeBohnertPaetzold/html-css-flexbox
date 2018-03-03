@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+  <title>Admin WebDev</title>
+</head>
+
+<body>
+  <section name="navigation">
+    <div class="nav-bar">
+      <div class="logo">
+        <h1><span>Admin</span>WEBDEV</h1>
+      </div>
+      <div class="nav-bar-actions">
+        <div class="actions">
+          <i class="fa fa-search"></i>
+          <i class="fa fa-th-large"></i>
+          <i class="fa fa-globe">
+            <span class="notify-badge">10</span>
+          </i>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section name="menu">
+    <div class="menu">
+        <div class="user-info">
+          <img class="avatar" src="./img/user.jpg" alt="">
+          <div class="user-data">
+            <div class="info">Nome do usuário</div>
+            <div class="info info-status">
+              <div class="status status-online"></div>
+              <span class="info-email">usuario@email.com</span>
+            </div>
+          </div>
+        </div>
+        <div class="separator">
+          Financeiro
+        </div>
+        <ul class="menu-items">
+          <li class="item active">
+            <i class="fa fa-th-large"></i>
+            Fluxo de caixa
+          </li>
+          <li class="item">
+            <i class="fa fa-calendar"></i>
+            Faturamento ativo
+          </li>
+          <li class="item">
+            <i class="fa fa-check"></i>
+            Recebimentos baixados
+          </li>
+          <li class="item">
+            <i class="fa fa-exchange"></i>
+            Conciliação bancária
+          </li>
+        </ul>
+        <div class="separator">
+          Comercial
+        </div>
+        <ul class="menu-items">
+          <li class="item">
+            <i class="fa fa-table"></i>
+            Cadastro de produtos
+          </li>
+          <li class="item">
+            <i class="fa fa-line-chart"></i>
+            Rotatividade
+          </li>
+          <li class="item">
+            <i class="fa fa-th"></i>
+            Grade de itens
+          </li>
+          <li class="item">
+            <i class="fa fa-th-large"></i>
+            Estoque mínimo
+          </li>
+        </ul>
+      </div>
+  </section>
+  <section name="content">
+    <div class="content">
+      <div class="flex-box">
+        <div class="card">
+          <div class="card-header">
+            <h1>Balanço bancário</h1>
+            <h2>Posição financeira em contas ativas</h2>
+          </div>
+          <div class="card-body">
+            <table>
+              <tr>
+                <th>Banco</th>
+                <th>Correntista</th>
+                <th>Credito</th>
+              </tr>
+              <tbody>
+                <tr>
+                  <td>Banco do Brasil</td>
+                  <td>System Architect LTDA</td>
+                  <td>R$ 6.654.325,00</td>
+                </tr>
+                <tr>
+                  <td>Santander</td>
+                  <td>Accountant S/A</td>
+                  <td>R$ 2.254.325,23</td>
+                </tr>
+                <tr>
+                  <td>Itaú</td>
+                  <td>Technical Author</td>
+                  <td>R$ 534.215,00</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <h1>Recebimentos em aberto</h1>
+            <h2>Total à receber em contas ativas</h2>
+          </div>
+          <div class="card-body">
+            <table>
+              <tr>
+                <th>Banco</th>
+                <th>Correntista</th>
+                <th>Credito</th>
+              </tr>
+              <tbody>
+                <tr>
+                  <td>Banco do Brasil</td>
+                  <td>System Architect LTDA</td>
+                  <td>R$ 256.233,00</td>
+                </tr>
+                <tr>
+                  <td>Santander</td>
+                  <td>Accountant S/A</td>
+                  <td>R$ 219.963,25</td>
+                </tr>
+                <tr>
+                  <td>Itaú</td>
+                  <td>Technical Author</td>
+                  <td>R$ 6.653,87</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <h1>Investimentos programados</h1>
+            <h2>Programação e status dos investimentos em aberto</h2>
+          </div>
+          <div class="card-body">
+            <table>
+              <tr>
+                <th>Conta</th>
+                <th>Último valor</th>
+                <th>Pontos</th>
+                <th>Status</th>
+              </tr>
+              <tbody>
+                <tr>
+                  <td>IBOVESPA</td>
+                  <td class="success">+0,45%</td>
+                  <td>85.761</td>
+                  <td class="center"><span class="label label-warning">Pendente</span></td>
+                </tr>
+                <tr>
+                  <td>NASDAQ</td>
+                  <td class="success">+0,05%</td>
+                  <td>7.761</td>
+                  <td class="center"><span class="label label-success">Aprovado</span></td>
+                </tr>
+                <tr>
+                  <td>IFIX</td>
+                  <td class="danger">-0,29%</td>
+                  <td>2.761</td>
+                  <td class="center"><span class="label label-danger">Suspendido</span></td>
+                </tr>
+                <tr>
+                  <td>DROGYS</td>
+                  <td class="success">+0,05%</td>
+                  <td>7.761</td>
+                  <td class="center"><span class="label label-success">Aprovado</span></td>
+                </tr>
+                <tr>
+                  <td>PROPOS</td>
+                  <td class="success">+0,22%</td>
+                  <td>7.761</td>
+                  <td class="center"><span class="label">Validação</span></td>
+                </tr>
+                <tr>
+                  <td>SYSAGILY</td>
+                  <td class="success">+0,05%</td>
+                  <td>7.761</td>
+                  <td class="center"><span class="label label-success">Aprovado</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <h1>Saturações de mercado</h1>
+            <h2>Bots programados para avaliar mercado</h2>
+          </div>
+          <div class="card-body">
+            <table>
+              <tr>
+                <th>Nome</th>
+                <th>Valor de disparo</th>
+                <th>Ação</th>
+              </tr>
+              <tbody>
+                <tr>
+                  <td>Garret Winters</td>
+                  <td>20%</td>
+                  <td>
+                    <button class="btn-action">
+                      <i class="fa fa-pencil"></i>
+                    </button>
+                    <button class="btn-action">
+                      <i class="fa fa-remove"></i>
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Wyatt Ruiz</td>
+                  <td>12%</td>
+                  <td>
+                    <button class="btn-action">
+                      <i class="fa fa-pencil"></i>
+                    </button>
+                    <button class="btn-action">
+                      <i class="fa fa-remove"></i>
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Randall Martinez</td>
+                  <td>17%</td>
+                  <td>
+                    <button class="btn-action">
+                      <i class="fa fa-pencil"></i>
+                    </button>
+                    <button class="btn-action">
+                      <i class="fa fa-remove"></i>
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Orlando Muklen</td>
+                  <td>56%</td>
+                  <td>
+                    <button class="btn-action">
+                      <i class="fa fa-pencil"></i>
+                    </button>
+                    <button class="btn-action">
+                      <i class="fa fa-remove"></i>
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Leonard Hodge</td>
+                  <td>7%</td>
+                  <td>
+                    <button class="btn-action">
+                      <i class="fa fa-pencil"></i>
+                    </button>
+                    <button class="btn-action">
+                      <i class="fa fa-remove"></i>
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Yardley Bond</td>
+                  <td>20%</td>
+                  <td>
+                    <button class="btn-action">
+                      <i class="fa fa-pencil"></i>
+                    </button>
+                    <button class="btn-action">
+                      <i class="fa fa-remove"></i>
+                    </button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
